@@ -33,3 +33,18 @@ func (f *FakeTime) Close() {
 func (f *FakeTime) Restore() {
 	f.faker.Restore()
 }
+
+/*
+第二种使用方式。结合 go build -ldflags "--tags dev"
+*/
+var faker *FakeTime
+
+func Init() {
+	faker = NewFakeTime()
+}
+
+func Close() {
+	if faker != nil {
+		faker.Close()
+	}
+}
