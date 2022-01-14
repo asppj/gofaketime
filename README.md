@@ -9,6 +9,7 @@
 ### 注意事项
 1. 不能在权限管控严格的操作系统运行；如：macOS；
 2. 需要结合libfaketime使用
+3. 需要开启cgo功能;
 
 ### linux示例
 ![img](img.png)
