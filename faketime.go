@@ -8,7 +8,7 @@ import "C"
 import (
 	"time"
 
-	"bou.ke/monkey"
+	"github.com/go-kiss/monkey"
 )
 
 /*
