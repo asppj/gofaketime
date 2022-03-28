@@ -1,8 +1,2 @@
-github.com/go-kiss/monkey v0.0.0-20220310125628-4132e544144d h1:qIgqfln6mayjSw3WVoOrwcNnNPLJ54WG4l1H47iqJ8k=
-github.com/go-kiss/monkey v0.0.0-20220310125628-4132e544144d/go.mod h1:GBXEbjTU07rSsNjEpMCCF5MpiwDh2dKz9kvFnRdHkBk=
-github.com/huandu/go-tls v1.0.1 h1:vdRzdlUFlqXWy0cfy5lVvHgUf6rt8QwEA/gCOCzsDX8=
-github.com/huandu/go-tls v1.0.1/go.mod h1:WeItecBdaIdUBRb7cSMMk+rq41iFKhf6Q9mDRDpbdec=
-golang.org/x/arch v0.0.0-20210901143047-ebb09ed340f1 h1:MwxAfiDvuwX8Nnnc6iRDhzyMyyc2tz5tYyCP/pZcPCg=
-golang.org/x/arch v0.0.0-20210901143047-ebb09ed340f1/go.mod h1:5om86z9Hs0C8fWVUuoMHwpExlXzs5Tkyp9hOrfG7pp8=
-golang.org/x/sys v0.0.0-20200107162124-548cf772de50/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
-rsc.io/pdf v0.1.1/go.mod h1:n8OzWcQ6Sp37PL01nO98y4iUCRdTGarVfzxY20ICaU4=
+bou.ke/monkey v1.0.2 h1:kWcnsrCNUatbxncxR/ThdYqbytgOIArtYWqcQLQzKLI=
+bou.ke/monkey v1.0.2/go.mod h1:OqickVX3tNx6t33n1xvtTtu85YN5s6cKwVug+oHMaIA=

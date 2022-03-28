@@ -6,15 +6,21 @@ package gofaketime
 import "C"
 
 import (
+	"sync"
 	"time"
 
-	"github.com/go-kiss/monkey"
+	"bou.ke/monkey"
 )
 
 /*
 通过猴子补丁替换time.Now()的方式来支持faketime;
 */
+
+var lockerNow = sync.Mutex{}
+
 func fakeTime() time.Time {
+	lockerNow.Lock()
+	defer lockerNow.Unlock()
 	return time.Unix(int64(C.time(nil)), 0)
 }
 
