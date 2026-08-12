@@ -1,3 +1,5 @@
+
+
 # gofaketime
 通过monkey patch的方式修复libfaketime不适用于golang的问题；
 
@@ -32,3 +34,11 @@ func main() {
 
 ### linux示例
 ![img](img.png)
+
+### 第二种使用方式
+根据源码 `faketime.go` 注释，支持结合构建标签使用全局方法：
+
+```golang
+gofaketime.Init()
+defer gofaketime.Close()
+```
